@@ -1,0 +1,161 @@
+body{
+    font-family: sans-serif;
+    color: #212529;
+}
+
+img{
+    max-width: 100%;
+}
+
+.headerBg .headerArea{
+    background: url(../images/hero.png) center top no-repeat,rgba(0,0,0,0.9) center top no-repeat;
+    background-size: auto 100% ;
+    padding: 151px 0;
+    text-align: center;
+}
+
+.headerBg .head{
+    font-size: 40px;
+    line-height: 1.2;
+    color: #fff;
+    font-weight: 700;
+    margin: 0 0 16px 0;
+}
+
+.headerBg .text{
+    font-size: 28px;
+    line-height: 1.2;
+    color: #fff;
+    font-weight: 700;
+}
+
+.container{
+    max-width: 1076px;
+    margin: 0 auto;
+}
+
+.introBg{
+    padding: 0 110px;
+    box-sizing: border-box;
+    background-color: #F5FEE7;
+    border-radius: 4px;
+    padding: 32px 0 28px 0;
+    margin: 64px 110px 48px 110px;
+}
+
+.introBg h2{
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin: 0 0 12px 0;
+    text-align: center;
+    color: #57A203;
+}
+.introBg p{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 4px 0;
+}
+
+.introBg .pic{
+    margin: 0 0 0 0;
+}
+
+.articleBg{
+    padding: 0 0 32px 0;
+    margin: 0 110px 48px 110px;
+    border-bottom: 1px solid #DEE2E6;
+}
+
+.articleBg .head{
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin: 24px 0;
+}
+.articleBg .title{
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #57A203;
+    margin: 0 0 16px 0;
+}
+.articleBg .text{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin: 0 0 16px 0;
+}
+
+.articleBg .list li{
+    margin: 0 0 12px 0;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.articleBg .list.historyList{
+    padding: 0 0 0 16px;
+}
+
+.articleBg .list.historyList li{
+    list-style-type: disc;
+}
+
+.articleBg .list.historyList .year{
+    border-right: 1px solid #212529;
+    padding: 0 8px 0 0;
+    margin: 0 8px 0 0;
+}
+
+.articleBg .list.brandsList li{
+    border-left: 3px solid #DEE2E6;
+    padding: 0 0 0 12px;
+}
+
+.articleBg .list.storyList{
+    padding: 0 0 0 28px;
+}
+
+.articleBg .list.storyList li{
+    position: relative;
+    margin: 0;
+    list-style-type: none;
+}
+
+.articleBg .list.storyList li a{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #57A203;
+    border-bottom: 1px solid #57A203;
+    padding: 0 0 2px 0;
+    margin: 8px 0;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.articleBg .list.storyList li:before{
+    content: "↗";
+    position: absolute;
+    top: 0;
+    left: -28px;
+    font-size: 26px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #57A203;
+}
+
+.footerBg{
+    padding: 64px 0;
+    background-color: #F8F9FA;
+}
+.footerBg .footerArea{
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #6C757D;
+}
