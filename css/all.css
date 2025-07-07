@@ -7,6 +7,14 @@ img{
     max-width: 100%;
 }
 
+ul{
+    padding: 0;
+}
+
+ul li{
+    list-style-type: none;
+}
+
 .headerBg .headerArea{
     background: url(../images/hero.png) center top no-repeat,rgba(0,0,0,0.9) center top no-repeat;
     background-size: auto 100% ;
